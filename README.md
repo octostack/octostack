@@ -4,6 +4,52 @@
 
 OctoStack is a comprehensive framework designed to guide developers and engineers in building stable, scalable, and robust production applications. Inspired by the octopus, each of the eight pillars represents a crucial aspect of modern application development and deployment. These pillars ensure that applications are not only functional but also resilient, secure, and maintainable.
 
+# Table of Contents
+
+1. [Infrastructure](#pillar-1-infrastructure)
+   - [Cloud vs On-Premises](#11-cloud-vs-on-premises)
+   - [Scalability](#12-scalability)
+   - [High Availability](#13-high-availability)
+   - [Containerization](#14-containerization)
+2. [Application Architecture](#pillar-2-application-architecture)
+   - [Microservices vs Monolithic](#21-microservices-vs-monolithic)
+   - [Frontend vs Backend](#22-frontend-vs-backend)
+3. [Security](#pillar-3-security)
+   - [Authentication and Authorization](#31-authentication-and-authorization)
+   - [Data Encryption](#32-data-encryption)
+   - [Vulnerability Management](#33-vulnerability-management)
+   - [Incident Response](#34-incident-response)
+4. [Observability](#pillar-4-observability)
+   - [Logging](#41-logging)
+   - [Monitoring](#42-monitoring)
+   - [Tracing](#43-tracing)
+   - [Metrics](#44-metrics)
+5. [Software Development Lifecycle (SDLC)](#pillar-5-software-development-lifecycle-sdlc)
+   - [Version Control](#51-version-control)
+   - [Continuous Integration (CI)](#52-continuous-integration-ci)
+   - [Continuous Deployment (CD)](#53-continuous-deployment-cd)
+   - [Deployment Strategies](#54-deployment-strategies)
+   - [Communication](#55-communication)
+   - [Documentation and Knowledge Sharing](#56-documentation-and-knowledge-sharing)
+   - [Automation](#57-automation)
+6. [Testing](#pillar-6-testing)
+   - [Unit Testing](#61-unit-testing)
+   - [Integration Testing](#62-integration-testing)
+   - [End-to-End Testing](#63-end-to-end-testing)
+   - [Performance Testing](#64-performance-testing)
+   - [Resilience Testing](#65-resilience-testing)
+7. [Data Management](#pillar-7-data-management)
+   - [Database Design](#71-database-design)
+   - [Data Backup and Recovery](#72-data-backup-and-recovery)
+   - [Data Privacy](#73-data-privacy)
+   - [Data Migration](#74-data-migration)
+8. [Innovation and Continuous Improvement](#pillar-8-innovation-and-continuous-improvement)
+   - [RFC Process](#81-rfc-process)
+   - [Experimentation and Prototyping](#82-experimentation-and-prototyping)
+   - [Continuous Learning](#83-continuous-learning)
+   - [Process Improvement](#84-process-improvement)
+   - [Innovation Culture](#85-innovation-culture)
+
 ## Pillar 1: Infrastructure
 
 **Definition:** The foundation on which your application runs.
