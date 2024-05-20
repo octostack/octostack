@@ -36,7 +36,7 @@ OctoStack is a comprehensive framework designed to guide developers and engineer
 
 **Definition:** Utilizing containers for consistent environments.
 
-- **Container Orchestration Options:** ECS, Heroku, Docker Swarm, etc.
+- **Container Orchestration:** Kubernetes, ECS, Heroku, Docker Swarm, etc.
 - **Best Practices:** Image management, network configuration, and resource allocation.
 - **Benefits:** Consistent environments, easy scaling, and efficient resource utilization.
 
