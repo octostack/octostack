@@ -139,25 +139,36 @@ OctoStack is a comprehensive framework designed to guide developers and engineer
 - **Collecting Metrics:** Using tools to gather and store metrics data.
 - **Analyzing Metrics:** Using metrics to make informed decisions.
 
-## Pillar 5: Deployment and CI/CD
+## Pillar 5: Software Development Lifecycle (SDLC)
 
-**Definition:** Automating the release process for reliable deployments.
+**Definition:** The process of planning, creating, testing, and deploying an information system.
 
-### 5.1 Continuous Integration
+### 5.1 Version Control
 
-**Definition:** Automated testing and integration.
+**Definition:** Managing changes to source code over time.
+
+- **Git:** The most widely used version control system.
+- **GitHub:** A platform for hosting and collaborating on Git repositories.
+- **Best Practices:** 
+  - **GitHub Flow:** A lightweight, branch-based workflow that supports continuous delivery. Features include feature branches, pull requests for code review, and merging into the main branch for deployment.
+  - Regular commits and meaningful commit messages.
+  - Branching strategies for better collaboration and code management.
+
+### 5.2 Continuous Integration (CI)
+
+**Definition:** Automated testing and integration of code changes.
 
 - **CI Tools:** GitHub Actions (preferred), Jenkins, Travis CI, CircleCI, etc.
-- **Best Practices:** Frequent commits, automated testing, and immediate feedback.
+- **Best Practices:** Frequent commits, automated testing, and immediate feedback to detect and fix issues early.
 
-### 5.2 Continuous Deployment
+### 5.3 Continuous Deployment (CD)
 
-**Definition:** Automated release to production.
+**Definition:** Automated release of code changes to production.
 
 - **CD Tools:** GitHub Actions (preferred), Jenkins, Spinnaker, GitLab CI, etc.
-- **Best Practices:** Automated testing, staging environments, and rollbacks.
+- **Best Practices:** Automated testing, staging environments, and rollbacks to ensure reliable deployments.
 
-### 5.3 Deployment Strategies
+### 5.4 Deployment Strategies
 
 **Definition:** Various methods to release updates to production.
 
@@ -166,6 +177,34 @@ OctoStack is a comprehensive framework designed to guide developers and engineer
 - **A/B Testing:** Comparing different versions in production.
 - **Rolling Deployments:** Incremental updates without downtime.
 - **Shadow Deployments:** Testing in a production-like environment without affecting live traffic.
+
+### 5.5 Communication
+
+**Definition:** Ensuring clear and proactive communication throughout the development process.
+
+- **Agile Tools:** Using Jira for time tracking, assignment of ownership, comments, and workflow transitions (handoffs).
+- **Commit History:** Keeping a detailed log of changes and rationale in commit messages.
+- **Pull Requests:** Facilitating code reviews and collaborative development.
+- **Slack Channel Updates:** Real-time communication and updates on project status.
+- **Best Practices:** Leaving evidence behind through documentation, clear and concise communication, and proactive updates.
+
+### 5.6 Documentation and Knowledge Sharing
+
+**Definition:** Maintaining comprehensive documentation and facilitating knowledge transfer.
+
+- **Code Documentation:** Inline comments and external documentation to ensure code is understandable and maintainable.
+- **User Documentation:** Manuals and guides for end-users to ensure they can effectively use the application.
+- **Knowledge Base:** Using internal wikis or Confluence for organizing and sharing knowledge.
+- **Training and Onboarding:** Structured processes for educating new team members.
+
+### 5.7 Automation
+
+**Definition:** Leveraging automation to streamline processes and reduce manual effort.
+
+- **Automated Testing:** Implementing unit, integration, and end-to-end tests.
+- **Automated Deployments:** Using CI/CD pipelines to automate the release process.
+- **Infrastructure as Code:** Managing infrastructure through code to ensure consistency and repeatability.
+- **Monitoring and Alerts:** Setting up automated monitoring and alerting to detect and respond to issues promptly.
 
 ## Pillar 6: Testing
 
