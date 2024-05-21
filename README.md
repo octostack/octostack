@@ -85,7 +85,7 @@ A branch-based workflow involves using branches in version control to manage cha
 
 - **Feature Branches:** Create separate branches for each feature or task.
 - **Pull Requests:** Use pull requests to review and merge changes into the main branch.
-- **Branching Strategies:** Implement branching strategies like GitFlow or Trunk-Based Development to manage the workflow.
+- **Branching Strategies:** Implement branching strategies like GitHub Flow, GitFlow or Trunk-Based Development to manage the workflow.
 
 ## Best Practices
 
