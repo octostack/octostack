@@ -65,7 +65,6 @@
 - Data Storage and Retrieval
 - Database Management Systems
 - Data Security and Privacy
-- Case Studies
 
 ## Pillar 7: Documentation, Innovation, and Continuous Improvement
 
@@ -76,14 +75,12 @@
   - Leaving Evidence Behind
   - Proactive Communication
   - Clear Communication
-- Case Studies
 
 ## Pillar 8: Automation
 
 - Automation Tools and Techniques
 - Role of LLMs and AI in Automation
 - Continuous Integration and Continuous Deployment (CI/CD)
-- Case Studies
 
 ## Conclusion
 
@@ -94,4 +91,3 @@
 
 - [The Twelve-Factor App](https://12factor.net/)
 - [OpenTelemetry](https://opentelemetry.io/)
-
