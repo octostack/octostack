@@ -131,11 +131,13 @@ Separating frontend and backend components of an application can enhance modular
 
 ## Design Patterns
 
-Design patterns are reusable solutions to common software design problems. For a comprehensive list of design patterns, refer to [Refactoring Guru](https://refactoring.guru/design-patterns). Key patterns include:
+Design patterns are typical solutions to common problems in software design. Some key patterns include:
 
 - **MVC (Model-View-Controller):** Separates an application into three interconnected components: Model (data), View (UI), and Controller (business logic).
 - **Repository Pattern:** Abstracts data access logic into a repository class, decoupling the data layer from the business logic.
 - **Service-Oriented Architecture (SOA):** Structures the application as a collection of services that communicate over a network.
+
+For a more comprehensive overview of various classic and alternative design patterns, resources such as [Refactoring.Guru](https://refactoring.guru/design-patterns) as essential.
 
 ## Scalability and Performance
 
